@@ -27,7 +27,6 @@ class PasswordEncryptor(object):
 
         return encoded_message
 
-
 class PasswordDecryptor(object):
     def __init__(self, password):
         salt = 'known salt'
@@ -52,7 +51,9 @@ import libnacl.public
 
 class PublicKeyEncryptor(object):
     def __init__(self, recipient_public_key_string):
+        # This hardcoded private key is used so that the recipient of the messages *knows* we sent it (it is used to create a digital signature)
         self.my_private_key = libnacl.public.SecretKey('9de45a6041cd2ba834e6920ebe4178c02f34c7503e93ee859d66686bbed4966a'.decode('hex'))
+        # This public key is used to encrypt the message
         self.recipient_public_key = libnacl.public.PublicKey(recipient_public_key_string.decode('hex'))
 
     def encrypt(self, plaintext_message, nonce=None):
@@ -71,7 +72,9 @@ class PublicKeyEncryptor(object):
 
 class PrivateKeyDecryptor(object):
     def __init__(self, private_key_string):
+        # This private key is used to decrypt the message
         self.my_private_key = libnacl.public.SecretKey(private_key_string.decode('hex'))
+        # This hardcoded public key matches the hardcoded private key above (it verifies the digital signature)
         self.sender_public_key = libnacl.public.PublicKey('dec6e11f0e7832d1c5b62535a25d9e89a383145af957a6a9c648a47276e0af08'.decode('hex'))
 
     def decrypt(self, encoded_message):
