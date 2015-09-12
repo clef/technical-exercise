@@ -9,6 +9,8 @@ This code relates to encryption and decryption -- we **don't** expect you to kno
 
 **Other than getting the tests passing, there is no "answer" to this exercise — wherever you are when time is up is where you should stop!**
 
+If you have any questions about the exercise, please don't hesitate to email [jobs@getclef.com](mailto:jobs@getclef.com).
+
 ## Getting started
 
 To get started, clone this repo and then run:
