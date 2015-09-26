@@ -1,6 +1,6 @@
 # Welcome to the ~~Clef~~ AcmeCorp take-home exercise! 
 
-You should spend **max 1.5 hours** on this exercise.  Understanding your thought process is *more important* than whether or not you finished, so when you send the exercise back to us, we'd love it if you also gave us a few sentences about: 
+You should spend **max 2 hours** on this exercise.  Understanding your thought process is *more important* than whether or not you finished, so when you send the exercise back to us, we'd love it if you also gave us a few paragraphs about: 
 
 1. Your process for debugging the issues and fixing them
 2. The reasons you chose to refactor code a particular way
