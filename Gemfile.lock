@@ -1,0 +1,14 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    ffi (1.9.10)
+    pbkdf2 (0.1.0)
+    rbnacl (3.2.0)
+      ffi
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  pbkdf2
+  rbnacl

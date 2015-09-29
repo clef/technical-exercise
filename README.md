@@ -19,7 +19,7 @@ To get started, clone this repo and then run:
 $ git clone git@github.com:clef/technical-exercise.git
 $ cd technical-exercise
 $ brew install libsodium
-$ pip install -r requirements.txt
+$ bundle install
 ```
 
 If you can't use Homebrew to install libsodium, please follow the instructions for downloading and installing it [here](https://download.libsodium.org/doc/).
@@ -27,7 +27,7 @@ If you can't use Homebrew to install libsodium, please follow the instructions f
 You should then be able to run tests with: 
 
 ```
-$ python test.py
+$ ruby test.rb
 ```
 
 Good luck! 
