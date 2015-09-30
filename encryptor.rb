@@ -7,8 +7,6 @@ def hex_to_binary(str)
 end
 
 class PasswordEncryptor
-  attr_accessor :key
-
   def initialize(password)
     # Generate a symmetric key from the password
     salt = 'known salt'
