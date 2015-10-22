@@ -13,22 +13,43 @@ If you have any questions about the exercise, please don't hesitate to email [jo
 
 ## Getting started
 
-To get started, clone this repo and then run:
+To get started, run:
 
 ```
 $ git clone git@github.com:clef/technical-exercise.git
 $ cd technical-exercise
+$ git checkout java
 $ brew install libsodium
-$ pip install -r requirements.txt
 ```
 
 If you can't use Homebrew to install libsodium, please follow the instructions for downloading and installing it [here](https://download.libsodium.org/doc/).
 
-You should then be able to run tests with: 
+You can then either run tests directly through Gradle or import the project into Android
+Studio. 
+
+### Running with Gradle 
+
+To run directly, do:
 
 ```
-$ python test.py
+./gradlew test
 ```
+
+### Import into Android Studio
+
+To import into Android Studio, open up Android Studio and click "Import
+Project". Navigate to the base directory that you just cloned, `technical-exercise` and click "OK".
+
+When you import the project, for some reason, Android Studio will delete the
+existing run configurations. To restore them, in your terminal do: 
+
+```
+$ git checkout -- .idea/
+```
+
+You'll then see the build configurations `Technical Exercise` and `Unit Tests`
+appear in the build configuration menu item. Select `Unit Tests` and click the
+Run button to run the tests.
 
 Good luck! 
 
