@@ -13,16 +13,21 @@ If you have any questions about the exercise, please don't hesitate to email [jo
 
 ## Getting started
 
-To get started, run:
+You'll need Java 1.8 to run the exercise, which you can install using Homebrew. To get started, run:
 
 ```
+$ brew tap caskroom/cask
+$ brew install brew-cask
+$ brew cask install java
+$ brew install libsodium
 $ git clone git@github.com:clef/technical-exercise.git
 $ cd technical-exercise
 $ git checkout java
-$ brew install libsodium
 ```
 
 If you can't use Homebrew to install libsodium, please follow the instructions for downloading and installing it [here](https://download.libsodium.org/doc/).
+If you can't install Java 1.8 through Homebrew, you can install it through
+Oracle or another package manager.
 
 You can then either run tests directly through Gradle or import the project into Android
 Studio. 
