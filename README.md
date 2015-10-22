@@ -35,7 +35,7 @@ To run directly, do:
 ./gradlew test
 ```
 
-### Import into Android Studio
+### Importing into Android Studio
 
 To import into Android Studio, open up Android Studio and click "Import
 Project". Navigate to the base directory that you just cloned, `technical-exercise` and click "OK".
