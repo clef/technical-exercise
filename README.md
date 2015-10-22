@@ -38,7 +38,7 @@ To run directly, do:
 ### Importing into Android Studio
 
 To import into Android Studio, open up Android Studio and click "Import
-Project". Navigate to the base directory that you just cloned, `technical-exercise` and click "OK".
+Project". Navigate to the base directory that you just cloned, `technical-exercise`, and click "OK".
 
 When you import the project, for some reason, Android Studio will delete the
 existing run configurations. To restore them, in your terminal do: 
