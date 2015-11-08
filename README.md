@@ -9,7 +9,13 @@ This code relates to encryption and decryption -- we **don't** expect you to kno
 
 **Other than getting the tests passing, there is no "answer" to this exercise — wherever you are when time is up is where you should stop!**
 
-If you have any questions about the exercise, please don't hesitate to email [jobs@getclef.com](mailto:jobs@getclef.com).
+The exercise is currently available in:
+
+* [Python](https://github.com/clef/technical-exercise/tree/python)
+* [Ruby](https://github.com/clef/technical-exercise/tree/ruby)
+* [Java](https://github.com/clef/technical-exercise/tree/java)
+
+If you'd rather do the exercise in a different language or have any questions, please don't hesitate to email [jobs@getclef.com](mailto:jobs@getclef.com). 
 
 ## Getting started
 
